@@ -10,6 +10,7 @@ services:
     expose:
       - 28015
     volumes:
+      # lets save database to ./.data local folder
       - ./.data:/root/rethinkdb/data
   koa:
     build: koa

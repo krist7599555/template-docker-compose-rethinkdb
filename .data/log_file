@@ -1,0 +1,132 @@
+2020-10-04T11:39:46.163560597 0.039969s notice: Recursively removing directory /root/rethinkdb/data/tmp
+2020-10-04T11:39:46.176253878 0.052665s notice: Initializing directory /root/rethinkdb/data
+2020-10-04T11:39:46.177914145 0.054321s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/root/rethinkdb/data' did not already exist or is empty.)
+2020-10-04T11:39:46.179303665 0.055712s notice: Running rethinkdb 2.4.1~0buster (CLANG 7.0.1 (tags/RELEASE_701/final))...
+2020-10-04T11:39:46.184737401 0.061147s notice: Running on Linux 4.19.76-linuxkit x86_64
+2020-10-04T11:39:46.186232540 0.062640s notice: Loading data from directory /root/rethinkdb/data
+2020-10-04T11:39:46.236870660 0.113280s info: Automatically using cache size of 273 MB
+2020-10-04T11:39:46.238806924 0.115214s notice: Listening for intracluster connections on port 29015
+2020-10-04T11:39:46.241985286 0.118393s notice: Listening for client driver connections on port 28015
+2020-10-04T11:39:46.242157689 0.118564s notice: Listening for administrative HTTP connections on port 8080
+2020-10-04T11:39:46.242164953 0.118571s notice: Listening on cluster addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T11:39:46.242170971 0.118577s notice: Listening on driver addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T11:39:46.242177403 0.118584s notice: Listening on http addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T11:39:46.242256862 0.118664s notice: Server ready, "147a95636663_jkx" 571fa1b5-f608-4644-aa0b-4b7b32596656
+2020-10-04T11:40:08.697378862 0.026419s notice: Running rethinkdb 2.4.1~0buster (CLANG 7.0.1 (tags/RELEASE_701/final))...
+2020-10-04T11:40:08.703973326 0.033014s notice: Running on Linux 4.19.76-linuxkit x86_64
+2020-10-04T11:40:08.705158637 0.034196s notice: Loading data from directory /root/rethinkdb/data
+2020-10-04T11:40:08.736317921 0.065357s info: Automatically using cache size of 270 MB
+2020-10-04T11:40:08.737531936 0.066569s notice: Listening for intracluster connections on port 29015
+2020-10-04T11:40:08.739795275 0.068832s notice: Listening for client driver connections on port 28015
+2020-10-04T11:40:08.740001296 0.069039s notice: Listening for administrative HTTP connections on port 8080
+2020-10-04T11:40:08.740009017 0.069046s notice: Listening on cluster addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T11:40:08.740015369 0.069052s notice: Listening on driver addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T11:40:08.740020827 0.069058s notice: Listening on http addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T11:40:08.740026886 0.069064s notice: Server ready, "147a95636663_jkx" 571fa1b5-f608-4644-aa0b-4b7b32596656
+2020-10-04T11:41:01.758096828 53.077708s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: Added replica on this server.
+2020-10-04T11:41:01.758151228 53.077762s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: Starting a new Raft election for term 1.
+2020-10-04T11:41:01.760626625 53.080237s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: This server is Raft leader for term 1. Latest log index is 0.
+2020-10-04T11:50:07.442403133 0.033175s notice: Running rethinkdb 2.4.1~0buster (CLANG 7.0.1 (tags/RELEASE_701/final))...
+2020-10-04T11:50:07.449943389 0.040713s notice: Running on Linux 4.19.76-linuxkit x86_64
+2020-10-04T11:50:07.451281353 0.042049s notice: Loading data from directory /root/rethinkdb/data
+2020-10-04T11:50:07.491880770 0.082650s info: Automatically using cache size of 255 MB
+2020-10-04T11:50:07.494968213 0.085735s notice: Listening for intracluster connections on port 29015
+2020-10-04T11:50:07.546946721 0.137714s notice: Listening for client driver connections on port 28015
+2020-10-04T11:50:07.548259387 0.139026s notice: Listening for administrative HTTP connections on port 8080
+2020-10-04T11:50:07.548267441 0.139034s notice: Listening on cluster addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T11:50:07.548403092 0.139170s notice: Listening on driver addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T11:50:07.548407578 0.139174s notice: Listening on http addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T11:50:07.548452842 0.139219s notice: Server ready, "147a95636663_jkx" 571fa1b5-f608-4644-aa0b-4b7b32596656
+2020-10-04T11:50:08.950266732 1.541034s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: Starting a new Raft election for term 2.
+2020-10-04T11:50:08.957983286 1.548750s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: This server is Raft leader for term 2. Latest log index is 3.
+2020-10-04T11:50:44.051657488 0.029085s notice: Running rethinkdb 2.4.1~0buster (CLANG 7.0.1 (tags/RELEASE_701/final))...
+2020-10-04T11:50:44.058281077 0.035708s notice: Running on Linux 4.19.76-linuxkit x86_64
+2020-10-04T11:50:44.059478835 0.036903s notice: Loading data from directory /root/rethinkdb/data
+2020-10-04T11:50:44.091735724 0.069163s info: Automatically using cache size of 255 MB
+2020-10-04T11:50:44.093244343 0.070669s notice: Listening for intracluster connections on port 29015
+2020-10-04T11:50:44.124573278 0.101998s notice: Listening for client driver connections on port 28015
+2020-10-04T11:50:44.124755898 0.102180s notice: Listening for administrative HTTP connections on port 8080
+2020-10-04T11:50:44.124758918 0.102183s notice: Listening on cluster addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T11:50:44.124766251 0.102190s notice: Listening on driver addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T11:50:44.124768464 0.102192s notice: Listening on http addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T11:50:44.124775387 0.102199s notice: Server ready, "147a95636663_jkx" 571fa1b5-f608-4644-aa0b-4b7b32596656
+2020-10-04T11:50:45.733686196 1.711111s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: Starting a new Raft election for term 3.
+2020-10-04T11:50:45.747389978 1.724815s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: This server is Raft leader for term 3. Latest log index is 6.
+2020-10-04T11:55:25.725427571 0.029104s notice: Running rethinkdb 2.4.1~0buster (CLANG 7.0.1 (tags/RELEASE_701/final))...
+2020-10-04T11:55:25.739575370 0.043349s notice: Running on Linux 4.19.76-linuxkit x86_64
+2020-10-04T11:55:25.740886801 0.044559s notice: Loading data from directory /root/rethinkdb/data
+2020-10-04T11:55:25.778080964 0.081756s info: Automatically using cache size of 254 MB
+2020-10-04T11:55:25.781559751 0.085231s notice: Listening for intracluster connections on port 29015
+2020-10-04T11:55:25.807876379 0.111548s notice: Listening for client driver connections on port 28015
+2020-10-04T11:55:25.808036993 0.111708s notice: Listening for administrative HTTP connections on port 8080
+2020-10-04T11:55:25.808039622 0.111711s notice: Listening on cluster addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T11:55:25.808042568 0.111714s notice: Listening on driver addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T11:55:25.808050455 0.111722s notice: Listening on http addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T11:55:25.808052663 0.111724s notice: Server ready, "147a95636663_jkx" 571fa1b5-f608-4644-aa0b-4b7b32596656
+2020-10-04T11:55:27.325989976 1.629662s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: Starting a new Raft election for term 4.
+2020-10-04T11:55:27.328883415 1.632555s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: This server is Raft leader for term 4. Latest log index is 9.
+2020-10-04T12:07:06.950805710 0.044725s notice: Running rethinkdb 2.4.1~0buster (CLANG 7.0.1 (tags/RELEASE_701/final))...
+2020-10-04T12:07:06.957460555 0.051379s notice: Running on Linux 4.19.76-linuxkit x86_64
+2020-10-04T12:07:06.958426517 0.052343s notice: Loading data from directory /root/rethinkdb/data
+2020-10-04T12:07:06.990480166 0.084400s info: Automatically using cache size of 251 MB
+2020-10-04T12:07:06.993275748 0.087192s notice: Listening for intracluster connections on port 29015
+2020-10-04T12:07:07.060243114 0.154159s notice: Listening for client driver connections on port 28015
+2020-10-04T12:07:07.061450583 0.155367s notice: Listening for administrative HTTP connections on port 8080
+2020-10-04T12:07:07.061593470 0.155509s notice: Listening on cluster addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T12:07:07.061596357 0.155512s notice: Listening on driver addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T12:07:07.061604694 0.155520s notice: Listening on http addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T12:07:07.061736917 0.155653s notice: Server ready, "147a95636663_jkx" 571fa1b5-f608-4644-aa0b-4b7b32596656
+2020-10-04T12:07:08.813194051 1.907110s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: Starting a new Raft election for term 5.
+2020-10-04T12:07:08.820349316 1.914266s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: This server is Raft leader for term 5. Latest log index is 12.
+2020-10-04T12:13:15.025266890 0.022116s notice: Running rethinkdb 2.4.1~0buster (CLANG 7.0.1 (tags/RELEASE_701/final))...
+2020-10-04T12:13:15.030759352 0.027607s notice: Running on Linux 4.19.76-linuxkit x86_64
+2020-10-04T12:13:15.031641318 0.028487s notice: Loading data from directory /root/rethinkdb/data
+2020-10-04T12:13:15.057176442 0.054025s info: Automatically using cache size of 247 MB
+2020-10-04T12:13:15.058852508 0.055698s notice: Listening for intracluster connections on port 29015
+2020-10-04T12:13:15.092620212 0.089465s notice: Listening for client driver connections on port 28015
+2020-10-04T12:13:15.092951969 0.089797s notice: Listening for administrative HTTP connections on port 8080
+2020-10-04T12:13:15.092954808 0.089800s notice: Listening on cluster addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T12:13:15.092965185 0.089810s notice: Listening on driver addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T12:13:15.092968186 0.089813s notice: Listening on http addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T12:13:15.093041432 0.089886s notice: Server ready, "147a95636663_jkx" 571fa1b5-f608-4644-aa0b-4b7b32596656
+2020-10-04T12:13:16.960531818 1.957298s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: Starting a new Raft election for term 6.
+2020-10-04T12:13:16.965939924 1.962705s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: This server is Raft leader for term 6. Latest log index is 15.
+2020-10-04T12:15:07.095437854 0.033231s notice: Running rethinkdb 2.4.1~0buster (CLANG 7.0.1 (tags/RELEASE_701/final))...
+2020-10-04T12:15:07.101265613 0.039058s notice: Running on Linux 4.19.76-linuxkit x86_64
+2020-10-04T12:15:07.102006123 0.039795s notice: Loading data from directory /root/rethinkdb/data
+2020-10-04T12:15:07.132885741 0.070677s info: Automatically using cache size of 246 MB
+2020-10-04T12:15:07.134756988 0.072546s notice: Listening for intracluster connections on port 29015
+2020-10-04T12:15:07.183573011 0.121362s notice: Listening for client driver connections on port 28015
+2020-10-04T12:15:07.183664875 0.121454s notice: Listening for administrative HTTP connections on port 8080
+2020-10-04T12:15:07.183667248 0.121456s notice: Listening on cluster addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T12:15:07.183669404 0.121458s notice: Listening on driver addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T12:15:07.184280657 0.122070s notice: Listening on http addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T12:15:07.184286289 0.122075s notice: Server ready, "147a95636663_jkx" 571fa1b5-f608-4644-aa0b-4b7b32596656
+2020-10-04T12:15:08.444231401 1.382021s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: Starting a new Raft election for term 7.
+2020-10-04T12:15:08.450443679 1.388233s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: This server is Raft leader for term 7. Latest log index is 18.
+2020-10-04T12:16:05.288372522 0.027656s notice: Running rethinkdb 2.4.1~0buster (CLANG 7.0.1 (tags/RELEASE_701/final))...
+2020-10-04T12:16:05.295112370 0.034393s notice: Running on Linux 4.19.76-linuxkit x86_64
+2020-10-04T12:16:05.295933699 0.035213s notice: Loading data from directory /root/rethinkdb/data
+2020-10-04T12:16:05.335026469 0.074308s info: Automatically using cache size of 244 MB
+2020-10-04T12:16:05.336746322 0.076025s notice: Listening for intracluster connections on port 29015
+2020-10-04T12:16:05.367258031 0.106537s notice: Listening for client driver connections on port 28015
+2020-10-04T12:16:05.367608666 0.106888s notice: Listening for administrative HTTP connections on port 8080
+2020-10-04T12:16:05.367615515 0.106894s notice: Listening on cluster addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T12:16:05.367618485 0.106897s notice: Listening on driver addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T12:16:05.367645678 0.106924s notice: Listening on http addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T12:16:05.367649189 0.106928s notice: Server ready, "147a95636663_jkx" 571fa1b5-f608-4644-aa0b-4b7b32596656
+2020-10-04T12:16:07.126242019 1.865521s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: Starting a new Raft election for term 8.
+2020-10-04T12:16:07.128630044 1.867909s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: This server is Raft leader for term 8. Latest log index is 21.
+2020-10-04T12:17:47.957564358 0.027504s notice: Running rethinkdb 2.4.1~0buster (CLANG 7.0.1 (tags/RELEASE_701/final))...
+2020-10-04T12:17:47.965075978 0.035016s notice: Running on Linux 4.19.76-linuxkit x86_64
+2020-10-04T12:17:47.966028409 0.035965s notice: Loading data from directory /root/rethinkdb/data
+2020-10-04T12:17:48.008535781 0.078475s info: Automatically using cache size of 243 MB
+2020-10-04T12:17:48.010498341 0.080435s notice: Listening for intracluster connections on port 29015
+2020-10-04T12:17:48.046412830 0.116350s notice: Listening for client driver connections on port 28015
+2020-10-04T12:17:48.046732842 0.116669s notice: Listening for administrative HTTP connections on port 8080
+2020-10-04T12:17:48.046756684 0.116693s notice: Listening on cluster addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T12:17:48.046763070 0.116699s notice: Listening on driver addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T12:17:48.046790449 0.116727s notice: Listening on http addresses: 127.0.0.1, 172.18.0.2
+2020-10-04T12:17:48.046794794 0.116731s notice: Server ready, "147a95636663_jkx" 571fa1b5-f608-4644-aa0b-4b7b32596656
+2020-10-04T12:17:49.692933333 1.762870s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: Starting a new Raft election for term 9.
+2020-10-04T12:17:49.696939799 1.766877s info: Table 2aab8920-6e1b-4561-8c3c-a5d86f692d45: This server is Raft leader for term 9. Latest log index is 24.
