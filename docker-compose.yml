@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  rethinkdb:
+    build: rethinkdb
+    container_name: cp44_rethinkdb
+    ports:
+      - 29015:29015
+      - 28015:28015
+      - 9999:8080
+    expose:
+      - 28015
+    volumes:
+      - ./.data:/root/rethinkdb/data
+  koa:
+    build: koa
+    container_name: cp44_koa
+    depends_on:
+      - rethinkdb
+    ports:
+      - 8888:3000
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+      - DB_HOST=cp44_rethinkdb
+      - DB_PORT=28015
+
